@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dialog test</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -16,7 +17,7 @@
     <p>
         <button id="showModalDialog">Show modal dialog</button>
     </p>
-    <dialog id="modalDialog">
+    <dialog id="modalDialog" style="view-transition-name: modal;">
         <header class="dialog__header">
             <h2>Hi, I'm a dialog.</h2>
             <button id="closeModalDialog" title="Close dialog" aria-label="auto" aria-live="polite">
